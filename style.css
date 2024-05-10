@@ -1,0 +1,116 @@
+body
+{
+	background-image: url("Site-background-dark.png");
+	background-size: contain;
+	background-attachment: scroll;
+	background-position: center;
+	font-family: "Montserrat", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+h2
+{
+	text-align: center;
+	font-size: 28px;
+}
+
+ul li
+{
+	list-style-type: none;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+}
+
+nav
+{
+	background: black;
+	opacity: 1;
+	height: 70px;
+	width: 100%;
+	border-radius: 3px;
+}
+
+section
+{
+	opacity: 1;
+	border-radius: 3px;
+	width: 100%;
+	margin: 0 auto;
+	text-shadow: black 0px 0px 5px;
+}
+
+footer 
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+}
+
+.nav_li
+{
+	display: inline-block;
+	line-height: 40px;
+	margin: 0 5px;
+}
+
+.nav_li_a
+{
+	list-style-type: none;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	text-decoration: none;
+	padding: 7px 7px;
+	border-radius: 3px;
+}
+
+.nav_li_a_active
+{
+	list-style-type: none;
+	color:rgb(255, 255, 255);
+	text-align: center;
+	font-size: 28px;
+	padding: 7px 7px;
+	border-radius: 3px;
+	
+}
+
+.nav_ul
+{
+  text-align: center;
+  padding-top: 15px;
+}
+
+a.active, a:hover
+{
+	background: gray;
+	transition: 0.3s;
+}
+
+.index_h
+{
+	text-align: center;
+	font-size: 32px;
+	color:white;
+}
+
+.index_p
+{
+  
+	text-align: center;
+	font-size: 28px;
+	color:white;
+}
+
+.table_c
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 45px;
+	opacity: 1;
+}
